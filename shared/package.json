@@ -1,0 +1,15 @@
+{
+    "name": "@depsentinel/shared",
+    "version": "1.0.0",
+    "description": "Shared types, schemas, and utilities",
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "scripts": {
+        "build": "tsc",
+        "test": "jest",
+        "clean": "rm -rf dist"
+    },
+    "dependencies": {
+        "zod": "^3.22.4"
+    }
+}

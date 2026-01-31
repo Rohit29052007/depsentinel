@@ -1,0 +1,16 @@
+{
+    "name": "@depsentinel/agents",
+    "version": "1.0.0",
+    "description": "Language-specific dependency analysis agents",
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "scripts": {
+        "build": "tsc",
+        "test": "jest",
+        "clean": "rm -rf dist"
+    },
+    "dependencies": {
+        "@depsentinel/core": "*",
+        "@depsentinel/shared": "*"
+    }
+}

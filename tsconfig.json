@@ -35,6 +35,15 @@
             ],
             "@depsentinel/agents": [
                 "./agents/src"
+            ],
+            "@depsentinel/ui": [
+                "./ui"
+            ],
+            "@depsentinel/server": [
+                "./server/src"
+            ],
+            "@depsentinel/shared": [
+                "./shared"
             ]
         }
     },
