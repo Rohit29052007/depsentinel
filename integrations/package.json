@@ -1,0 +1,17 @@
+{
+    "name": "@depsentinel/integrations",
+    "version": "1.0.0",
+    "description": "DepSentinel integrations with external services",
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "scripts": {
+        "build": "tsc",
+        "test": "jest",
+        "clean": "rm -rf dist"
+    },
+    "dependencies": {
+        "@depsentinel/core": "*",
+        "@octokit/rest": "^20.0.2",
+        "axios": "^1.6.7"
+    }
+}
